@@ -1,0 +1,142 @@
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: Tahoma, Verdana, sans-serif;
+}
+
+h1{
+  font-size: 5.265rem; /* 100% = 16px = 1em therefor 90px = 5.625em i.e(90px/16px=562.5px) i.e 562.5px = 5.265em */
+  /* But now rem (where r is root) is the advance version of em And rem is perferred because it is most adoptable and reliable*/
+  margin: 50px auto 0 auto;
+  font-family: "Audiowide", sans-serif;
+  color: #00838f; /* #e4f9f5 */
+}
+
+h2{
+  font-weight: normal;
+  font-family: "Montserrat" sans-serif;
+  font-size: 2.5rem;
+  color: #00838f;
+  padding-bottom: 10px;
+}
+
+h3{
+  color: #11999E;
+  font-family: "Montserrat" sans-serif;
+}
+
+a{
+  color: #11999E;
+}
+
+p{
+  line-height: 2;
+  font-family: "Montserrat" sans-serif;
+}
+
+hr{
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+
+}
+
+.top-container {
+  background-color: #66BFBF;
+  position: relative;
+  padding-top: 150px;
+}
+
+.middle-container{
+  margin: 100px 0px;
+}
+
+.bottom-container{
+  background-color: #00838f;
+  padding: 50px 0 20px;
+}
+
+.about-me{
+  width: 40%;
+  margin: auto;
+}
+
+.Coding-img{
+  width: 25%;
+  float: left;
+  margin: 20px 30px auto auto;
+  border-radius: 50%;
+}
+
+.Cricket-img{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+  border-radius: 50%;
+}
+
+.developer {
+  text-decoration: underline;
+}
+
+.top-cloud{
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.another-cloud{
+  position: absolute;
+  left: 70px;
+  bottom: 450px;
+}
+
+.bottom-cloud{
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.Sports-lover{
+  width: 40%;
+  margin: 40px auto;
+}
+
+.name{
+  color: #EAF6F6;
+}
+
+.btn {
+  background: #00838f;
+  background-image: -webkit-linear-gradient(top, #00838f, #13b7bd);
+  background-image: -moz-linear-gradient(top, #00838f, #13b7bd);
+  background-image: -ms-linear-gradient(top, #00838f, #13b7bd);
+  background-image: -o-linear-gradient(top, #00838f, #13b7bd);
+  background-image: linear-gradient(to bottom, #00838f, #13b7bd);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 18px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #0db7bd);
+  background-image: -moz-linear-gradient(top, #11cdd4, #0db7bd);
+  background-image: -ms-linear-gradient(top, #11cdd4, #0db7bd);
+  background-image: -o-linear-gradient(top, #11cdd4, #0db7bd);
+  background-image: linear-gradient(to bottom, #11cdd4, #0db7bd);
+  text-decoration: none;
+}
